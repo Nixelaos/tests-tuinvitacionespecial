@@ -1,0 +1,17 @@
+{
+  "name": "tuinvitacionespecial-tests",
+  "version": "1.0.0",
+  "description": "Suite independiente de pruebas para Tu Invitación Especial (Node.js v26 + TypeScript 7)",
+  "type": "module",
+  "engines": {
+    "node": ">=26.0.0"
+  },
+  "scripts": {
+    "test": "node --test src/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "7.0.2"
+  }
+}
